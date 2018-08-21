@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Registro"
+    tools:showIn="@layout/activity_registro">
+
+    <LinearLayout
+        android:layout_width="352dp"
+        android:layout_height="479dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:text="Registro Usuario" />
+
+        <EditText
+            android:id="@+id/txtnomusu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ingresar Nombre"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtciudadusu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ingresar Ciudad"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtcorreousu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ingrese Correo"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtpassusu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ingresar Contraseña"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/RegistroUsu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:text="Registrar" />
+
+    </LinearLayout>
+</LinearLayout>

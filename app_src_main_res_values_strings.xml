@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">lite</string>
+    <string name="title_activity_registro">Registro</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="title_activity_editar">Principal</string>
+    <string name="Salir">Salir</string>
+    <string name="Atras">Atras</string>
+
+
+</resources>

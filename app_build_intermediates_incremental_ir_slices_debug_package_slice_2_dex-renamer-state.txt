@@ -1,0 +1,4 @@
+#Thu Aug 09 00:48:11 COT 2018
+base.0=C\:\\Users\\hotdo\\Desktop\\lite\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
+path.0=classes.dex
+renamed.0=classes.dex
